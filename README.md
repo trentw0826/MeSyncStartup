@@ -2,6 +2,8 @@
 
 Ms. Information's Dictionary is a goofy twist on the traditional english dictionary. Instead of actually accurate definitions, it delivers made-up meanings, wrong pronunciations, and outrageous etymologies for every word in the English language as well as provide a collaborative environment for users to express their own interpretations. Powered by modern AI technologies, this app will have users laughing while showing off the power of web services, authentication, and real-time interactivity.
 
+![MID Home Sketch](https://github.com/user-attachments/assets/113697ee-4a4e-4fbd-92d9-9dfb1f3bd475)
+
 ## Key Features
 
 ### Full Dictionary Database
