@@ -1,6 +1,6 @@
 # _MeSync_ - Personal Journal and Reflection App
 ## Elevator Pitch
-MeSync helps users connect with themselves through structured journaling and personalized insights. With features like guided prompts, mood tracking, and an analytics dashboard, MeSync transforms simple journaling into a powerful tool for self-reflection and personal growth. Whether users are tracking daily moods or setting monthly intentions, MeSync offers meaningful insights to deepen their understanding and mindfulness.
+MeSync helps users connect with themselves through structured, clean, clarifying, personalized, and simple journaling. With features like guided prompts, mood tracking, and an analytics dashboard, MeSync transforms simple journaling into a powerful tool for self-reflection and personal growth. Whether users are tracking daily moods or setting monthly intentions, MeSync offers meaningful insights to deepen their understanding and mindfulness.
 
 ## Features
 ### Guided Daily Prompts: 
