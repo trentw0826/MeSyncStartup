@@ -1,36 +1,38 @@
-# Ms. Information's Dictionary
+# _MeSync_ - Personal Journal and Reflection App
+## Elevator Pitch
+MeSync helps users connect with themselves through structured journaling and personalized insights. With features like guided prompts, mood tracking, and an analytics dashboard, MeSync transforms simple journaling into a powerful tool for self-reflection and personal growth. Whether users are tracking daily moods or setting monthly intentions, MeSync offers meaningful insights to deepen their understanding and mindfulness.
 
-Ms. Information's Dictionary is a goofy twist on the traditional english dictionary. Instead of actually accurate definitions, it delivers made-up meanings, wrong pronunciations, and outrageous etymologies for every word in the English language as well as provide a collaborative environment for users to express their own interpretations. Powered by modern AI technologies, this app will have users laughing while showing off the power of web services, authentication, and real-time interactivity.
-
-![MID Home Sketch](https://github.com/user-attachments/assets/113697ee-4a4e-4fbd-92d9-9dfb1f3bd475)
-
-## Key Features
-
-### Full Dictionary Database
-Ms. Information's dictionary will reference a database of English words, each one containing a misleading definition, fictitious pronunciation, false origins, and more. This database will be accessible for searching and enjoying from anywhere.
-
-### Profile Service
-Users will create accounts to share their favorite definitions through social media, create 'books' of their best finds, and live interact with the creations of others.
-
-### Word Creation
-Interested users will have the opportunity to create their own definitions, adding them to the database as proprietary creations as well as being able to share them with others.
+## Features
+### Guided Daily Prompts: 
+Encourages reflection with prompts based on past entries and mood trends.
+### Mood Tracking and Sentiment Analysis: 
+Tracks daily moods and provides insights via sentiment analysis.
+### Personalized Analytics Dashboard: 
+Visualizes mood trends and journaling patterns for self-awareness.
+### Gratitude and Achievements Highlights: 
+Recaps positive moments each week for perspective and mindfulness.
+### Monthly Reflection and Goal Setting: 
+Guides users through reviewing past entries and setting future intentions.
 
 ## Technological Demonstration
-Ms. Information's Dictionary, while silly in nature, is a project that demonstrates competence in various technologies.
-
 ### HTML
-Uses proper HTML to communicate and show a simple but effective dictionary application including word definitions, user settings, sharing options, and more. 
+Structures the web pages, including the login, registration, and main journal dashboard. Uses semantic HTML to ensure accessibility and clear navigation.
 ### CSS
-Uses CSS to offer users an interactive and fun experience for all screen sizes. This includes effective organization of whitespace, simple but faithful animations, and other forms of interactivity.
-### Javascript
-Provides a Javascript framework to create user-friendly interactions with Ms. Information's databases, including abilities to retrieve, edit, share, and vote on words.
+Provides styling optimized for different screen sizes (responsive design) with careful use of whitespace, color contrast, and typography to enhance readability and a calming aesthetic suitable for a journaling app.
+### JavaScript
+Handles user interactions such as login, journal entry creation, and submitting moods, as well as backend API calls for saving and retrieving entries, moods, and user data.
 ### React
-React is used to organized the user experience and create a comfortable and simple layout for all wisdom seekers.
-### Web Service
-Various web services are called (WordsAPI, GPT Whisper) to create a well-constructed experience based largely on existing knowledge
-### Authentication
-User accounts will be saved as well as the ability to login with expiring authentication and logout, all safely of course.
-### Database data
-Various databases are used by Ms. Information for the persistent storage of words with associated definitions, audio files, etc as well as user information
-### Websocket data
-Websocket will be used to maintain a live leaderboard of the most interesting/trending words as per user taste.
+Builds the app as a single-page application with componentized views for each feature (e.g., journal entries, mood tracker, and analytics). React’s state management provides a smooth, dynamic user experience by updating components based on user actions.
+### Node.js/Express
+Backend service with endpoints for:
+- Retrieving journal entries
+- Submitting new entries
+- Retrieving and updating mood tracking data
+- User authentication and registration
+### Sentiment Analysis API
+Uses an external sentiment analysis API to analyze the tone of journal entries, giving users insights into emotional patterns.
+### Database
+MongoDB stores user data, journal entries, and mood information. Authentication credentials are securely stored, and only logged-in users can access and modify their data.
+### JWT Authentication
+Authenticates users via JSON Web Tokens (JWT), ensuring that only authenticated users can access and modify personal data in the app.
+WebSocket (Socket.IO) - Supports real-time updates to the mood analytics dashboard. As users add entries or modify mood information, updates are broadcasted to all active sessions for seamless data synchronization across devices.
