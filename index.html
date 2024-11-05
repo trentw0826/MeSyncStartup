@@ -5,25 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MeSync</title>
+  <link rel="icon" href="assets/logo_cutout.jpg" type="image/jpeg">
 </head>
 <body>
   <h1>MeSync - Journaling Reimagined</h1>
-  <!-- MeSync logo here, reference logo.jpg in assets -->
   <img src="assets/logo.jpg" alt="MeSync Logo" style="width: 100px; height: 100px;">
   <hr />
   
-  <form action="/login" method="post">
-    <input type="text" id="username" name="username" placeholder="username" required>
-    <br>
-    <input type="password" id="password" name="password" placeholder="password" required>
-    <br>
-    <button type="submit">Login</button>
-    <hr />
-    <p>&nbsp;&nbsp;</p>
-  </form>
-  <a href="/forgot-password" style="display: block;">forgot password?</a>
-  <a href="/register" style="display: block;">new to MeSync?</a>
+  <input type="text" id="username" name="username" placeholder="username" required>
+  <br>
+  <input type="password" id="password" name="password" placeholder="password" required>
+  <br>
+  <button type="button" onclick="location.href='pages/home.html'">Login</button>
+  <hr />
+
+  <a href="pages/forgot_password.html" style="display: block;">forgot password?</a>
+  <a href="pages/register.html" style="display: block;">new to MeSync?</a>
   <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  <a href="https://github.com/trentw0826/MeSyncStartup" target=”_blank” attribute style="display: block;">Github</a>
+  
+  <footer>
+    <a href="https://github.com/trentw0826/MeSyncStartup" target="_blank">
+      <img src="assets/github-icon.png" alt="project github" style="width: 24px; height: 24px;">
+    </a>
+  </footer>
 </body>
-</html></form>
+</html>

@@ -1,0 +1,26 @@
+<!-- Simple settings, including updating of username and password -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+</head>
+<body>
+    <div>
+        <h2>Account Settings</h2>
+        <img src="../assets/logo.jpg" alt="MeSync Logo" style="width: 100px; height: 100px;">
+        <hr />
+        <p>Update your account settings below.</p>
+        <form action="/update_settings" method="post">
+            <input type="text" name="username" placeholder="Enter your new username" required>
+            <br>
+            <input type="password" name="password" placeholder="Enter your new password" required>
+            <br>
+            <button type="submit">Update</button>
+        </form>
+        <hr />
+        <a href="home.html"><button>Back to Home</button></a>
+    </div>
+</body>
+</html>

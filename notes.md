@@ -1,4 +1,4 @@
-Class notes here!
+**Class Notes**
 
 9/5 - Intro to Git/Github
  - Conflicts can be completely overwritten (not just one or the other)
