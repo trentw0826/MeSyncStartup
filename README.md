@@ -16,6 +16,8 @@ Guides users through reviewing past entries and setting future intentions.
 ### Secure data:
 Personal data is encrypted and safe for the peace of mind that comes with private reflection
 
+![MeSync Sketches](/assets/MeSync%20Sketches.png)
+
 ## Technological Demonstration
 ### HTML
 Structures simple and powerful web pages, including the login, registration, and main journal dashboard. Uses semantic HTML to ensure accessibility and clear navigation.
