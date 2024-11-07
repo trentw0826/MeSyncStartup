@@ -40,3 +40,7 @@ MongoDB stores user data, journal entries, and more. Authentication credentials 
 Real-Time prompt sharing allows users to share their favorite journaling prompts with each other in a live but quiet feed. Users could like prompts or mark them for later, and each prompt’s author would see an anonymous tally of how many people connected with it.
 ### JWT Authentication
 Authenticates users via JSON Web Tokens (JWT), ensuring that only authenticated users can access and modify personal data in the app.
+
+## Deliverables
+# HTML
+The main HTML commit includes the foundational structure for the MeSync web application. It encompasses the layout for the login and registration pages, as well as the main journal dashboard. Semantic HTML elements are used to ensure accessibility and clear navigation, providing a solid base for the app's user interface. Additionally, this commit added placeholders for all main service functionality, including but not limited to backend database calls, calls to a couple 3rd-party APIS, a live websocket prompt feed, and other backend services.
