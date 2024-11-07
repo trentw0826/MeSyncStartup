@@ -14,9 +14,13 @@
 - Convenient importing/exporting with other text formats (what other formats would ppl want?)
 
 **General Principles**
-
 - Minimal
-- Customizable
+- User-customizable
 - Low friction
 - Immersive (feels like using a more convenient version of a real journal)
-- Think about what I would find convenient in a journal
+- What would I want in my own journal?
+
+**TODO**
+- Recreate AI-generated logo in my own style
+- Fix domain
+- Generate main color palette and figure out how to store it

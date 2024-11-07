@@ -10,17 +10,70 @@
     <div>
         <h2>Account Settings</h2>
         <img src="../assets/logo.jpg" alt="MeSync Logo" style="width: 100px; height: 100px;">
-        <hr />
-        <p>Update your account settings below.</p>
-        <form action="/update_settings" method="post">
-            <input type="text" name="username" placeholder="Enter your new username" required>
-            <br>
-            <input type="password" name="password" placeholder="Enter your new password" required>
-            <br>
-            <button type="submit">Update</button>
-        </form>
-        <hr />
-        <a href="home.html"><button>Back to Home</button></a>
+        
+        <section id="change-password">
+            <hr />
+            <h3>change password</h3>
+            <form>
+                <input type="password" name="password" placeholder="current password" required>
+                <br>
+                <input type="password" name="new_password" placeholder="new password" required>
+                <br>
+                <input type="password" name="confirm_new_password" placeholder="confirm new password" required>
+                <br>
+                <button type="button">change password (placeholder)</button>
+            </form>
+        </section>
+        
+        <section id="change-username">
+            <hr />
+            <h3>change username</h3>
+            <form>
+                <input type="text" name="username" placeholder="new username" required>
+                <br>
+                <button type="button">change username (placeholder)</button>
+            </form>
+        </section>
+        
+        <section id="change-email">
+            <hr />
+            <h3>change email</h3>
+            <form>
+                <input type="email" name="email" placeholder="new email" required>
+                <br>
+                <button type="button">change email (placeholder)</button>
+            </form>
+        </section>
+        
+        <section id="import-journals">
+            <hr />
+            <h3>import journals</h3>
+            <form>
+                <button type="button">import journals (placeholder)</button>
+            </form>
+        </section>
+        
+        <section id="export-journals">
+            <hr />
+            <h3>export journals</h3>
+            <form>
+                <button type="button">export journals (placeholder)</button>
+            </form>
+        </section>
+        
+        <section id="delete-account">
+            <hr />
+            <h3>delete account</h3>
+            <form>
+                <input type="password" name="password" placeholder="enter your password" required>
+                <br>
+                <input type="text" name="confirmation" placeholder="type 'I understand I am permanently deleting all MeSync data associated with *username*' to confirm" required>
+                <br>
+                <button type="button">delete account (placeholder)</button>
+            </form>
+            <hr />
+        </section>
+        <a href="home.html"><button>back home</button></a>
     </div>
 </body>
 </html>
