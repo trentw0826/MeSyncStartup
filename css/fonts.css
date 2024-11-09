@@ -1,0 +1,16 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* Apply the fonts to the body and headings */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Additional font styles */
+.bold {
+    font-weight: 700;
+}
+
+.light {
+    font-weight: 300;
+}

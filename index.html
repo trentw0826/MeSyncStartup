@@ -1,34 +1,38 @@
-<!-- A frontpage for MeSync *see README.md for overview* -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MeSync</title>
-  <link rel="icon" href="assets/favicon.ico" type="image/ico">
+  <link rel="stylesheet" href="css/colors.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/custom-styles.css">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <h1>MeSync - The Gentle Art of Journaling</h1>
-  <img src="assets/logo.jpg" alt="MeSync Logo" style="width: 100px; height: 100px;">
-  <hr />
-  
-  <input type="text" id="username" name="username" placeholder="username" required>
-  <br>
-  <input type="password" id="password" name="password" placeholder="password" required>
-  <br>
-  <button type="button" onclick="location.href='pages/home.html'">login (placeholder, goes straight to home page)</button>
-  <hr />
-
-  <nav>
-    <a href="pages/forgot_password.html" style="display: block;">forgot password?</a>
-    <a href="pages/register.html" style="display: block;">new to MeSync?</a>
-  </nav>
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-  
-  <footer>
-    <a href="https://github.com/trentw0826/MeSyncStartup" target="_blank">
-      <img src="assets/github-icon.png" alt="project github" style="width: 24px; height: 24px;">
-    </a>
+  <div id="box" class="fade-in">
+    <span id="box-text" style="color: var(--color-primary);">MeSync</span>
+    <span id="subtitle">The Gentle Art of Self-Connection</span>
+    <div id="credentials">
+      <input type="text" placeholder="username" id="username">
+      <input type="password" placeholder="password" id="password">
+    </div>
+    <div id="actions">
+      <button id="login">Login</button>
+      <button id="forgot-password">Forgot Password</button>
+      <button id="create-account">Create Account</button>
+    </div>
+  </div>
+  <footer class="footer-style">
+    <div>
+      <a href="https://github.com/trentw0826/MeSyncStartup" target="_blank" class="footer-link">
+        <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="var(--color-secondary)" d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.17c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.24 1.84 1.24 1.07 1.835 2.807 1.305 3.492.997.108-.776.42-1.305.763-1.605-2.665-.305-5.467-1.335-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.98-.398 3-.403 1.02.005 2.043.137 3 .403 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.24 2.873.118 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.62-5.48 5.92.43.37.823 1.1.823 2.22v3.293c0 .32.218.694.825.577C20.565 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+      </a>
+    </div>
   </footer>
+  <script src="js/custom-scripts.js"></script> 
 </body>
 </html>
