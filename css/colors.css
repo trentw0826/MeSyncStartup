@@ -1,5 +1,5 @@
 :root {
-  --color-primary: var(--color-tertiary); /* Update color palette using color theory */
+  --color-primary: #133313;
   --color-secondary: #4a816d; 
   --color-tertiary: #273b46; 
   --color-accent: #ecdfd7;

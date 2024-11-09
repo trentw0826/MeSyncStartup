@@ -73,7 +73,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, var(--color-secondary) 50%, var(--color-tertiary) 50%);
+    background: linear-gradient(to bottom, var(--color-tertiary) 50%, var(--color-secondary) 50%);
 }
 #box {
     width: 360px;
@@ -154,6 +154,10 @@ body, html {
 }
 .footer-style {
     padding-bottom: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 }
 .footer-style a {
     color: var(--color-secondary);
