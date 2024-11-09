@@ -57,6 +57,7 @@ html, body {
         var(--color-tertiary) 50%,
         var(--color-secondary) 50%
     );
+    overflow: hidden; /* Prevents overscrolling */
 }
 
 /* Styles for the main content box that contains the primary content of the page */
