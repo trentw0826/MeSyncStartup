@@ -1,0 +1,101 @@
+$theme-colors: (
+    "primary": #2C6E49, /* Forest Green - Used for primary buttons and links */
+    "secondary": #88D9E6, /* Seafoam - Used for secondary buttons and accents */
+    "success": #6E8F72, /* Moss Green - Used for success messages and icons */
+    "info": #4A90A4, /* Ocean Blue - Used for informational messages and icons */
+    "warning": #D4A16A, /* Golden Tan - Used for warning messages and icons */
+    "danger": #A44D4D, /* Brick Red - Used for error messages and icons */
+    "light": #F0ECE3, /* Soft Off-White - Used for background and light elements */
+    "dark": #2E3830, /* Dark Green-Gray - Used for text and dark elements */
+    "background": #D0E8D0 /* Light Green - Used for the background */
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Input styles
+input.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $dark;
+    border-radius: 0;
+    box-shadow: none;
+    color: $dark;
+    max-width: 400px;
+
+    &:focus {
+        background-color: transparent;
+        border-bottom: 1px solid $primary;
+        box-shadow: none;
+        color: map-get($theme-colors, "secondary");
+    }
+
+    &::placeholder {
+        transition: opacity 0.3s ease;
+    }
+
+    &:focus::placeholder {
+        opacity: 0;
+    }
+}
+
+// Button styles
+.btn-primary {
+    background: transparent;
+    border: 1px solid map-get($theme-colors, "primary");
+    color: map-get($theme-colors, "primary");
+    max-width: 400px;
+
+    &:hover {
+        background: transparent;
+        border-color: map-get($theme-colors, "secondary");
+        color: map-get($theme-colors, "secondary");
+    }
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid map-get($theme-colors, "secondary");
+    color: map-get($theme-colors, "secondary");
+
+    &:hover {
+        background: transparent;
+        border-color: map-get($theme-colors, "primary");
+        color: map-get($theme-colors, "primary");
+    }
+}
+
+// Typography styles
+h1, h2 {
+    color: $dark;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: clamp(2rem, 8vw, 5rem);  // Font size changes between 2rem and 5rem based on the viewport width, defaulting to 8vw
+}
+
+// Background styles
+.bg-background {
+    background-color: map-get($theme-colors, "background");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// Layout styles
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}

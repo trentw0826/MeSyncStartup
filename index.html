@@ -9,42 +9,34 @@
   <!-- Page title + icon -->
   <title>MeSync</title>
   <link rel="icon" href="assets/favicon.ico" type="image/ico">
-</head>
 
-<body class="d-flex flex-column min-vh-100">
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card">
+  <!-- Custom Bootstrap CSS -->
+  <link href="./css/custom-bootstrap.css" rel="stylesheet">
+</head>
+<body>
+  <main class="bg-background">
+    <div class="main-content">
+      <div class="text-center">
+        <h1>MeSync</h1>
+      </div>
+      <div class="container row justify-content-center">
+        <div class="col-md-6">
           <div class="card-body">
-            <h1 class="card-title text-center">MeSync</h1>
-            <img src="assets/mesync-logo-transparent.png" alt="MeSync Logo" class="mx-auto d-block" style="width: 100px; height: 100px;">
-            <hr />
             <form>
               <div class="mb-3">
-                <input type="text" class="form-control" id="username" name="username" placeholder="username" required>
+                <input type="email" class="form-control" id="email" placeholder="email">
               </div>
               <div class="mb-3">
-                <input type="password" class="form-control" id="password" name="password" placeholder="password" required>
+                <input type="password" class="form-control" id="password" placeholder="password">
               </div>
               <div class="d-grid">
-                <button type="button" class="btn btn-primary" onclick="location.href='pages/home.html'">Login</button>
+                <button type="submit" class="btn btn-primary rounded-3">Login</button>
               </div>
             </form>
-            <hr />
-            <nav class="text-center">
-              <a href="pages/forgot_password.html" class="d-block">Forgot password?</a>
-              <a href="pages/register.html" class="d-block">New to MeSync?</a>
-            </nav>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <footer class="mt-auto text-center py-3">
-    <a href="https://github.com/trentw0826/MeSyncStartup" target="_blank">
-      <img src="assets/github-mark.svg" alt="project github" style="width: 24px; height: 24px;">
-    </a>
-  </footer>
+  </main>
 </body>
 </html>
