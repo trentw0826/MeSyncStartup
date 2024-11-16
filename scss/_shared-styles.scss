@@ -1,4 +1,18 @@
-@import "shared-styles"; // Import shared styles
+.text-center {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 0;
+    max-width: 20vw;  // Adjusted max-width
+    max-height: 30vh; // Adjusted max-height
+}
 
 .footer {
     position: absolute;

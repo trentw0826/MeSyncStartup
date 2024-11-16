@@ -1,0 +1,6 @@
+#login-container {
+    margin: 0;
+    padding: 0;
+    max-width: 20vw;  /* Adjusted max-width */
+    max-height: 30vh; /* Adjusted max-height */
+}

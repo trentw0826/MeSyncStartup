@@ -7,7 +7,7 @@
 @import "background-styles";
 @import "layout-styles";
 @import "footer-styles";
-
+@import "shared-styles"; // New shared styles file
 
 html, body {
     overscroll-behavior: none;
