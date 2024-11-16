@@ -81,11 +81,11 @@ h1 {
     font-size: clamp(3rem, 10vw, 5rem);  
 }
 
-.subtitle {
+h2 {
     color: $dark;
-    opacity: 0.6; // Make the text muted
-    font-style: italic; // Italicize the text
-    font-size: 1.25rem; // Adjust the font size as needed
+    opacity: 0.6; // Muted
+    font-style: italic;
+    font-size: clamp(1rem, 5vw, 2rem); 
 }
 
 // Background styles
@@ -109,4 +109,8 @@ h1 {
 
 .text-center {
     text-align: center;
+}
+
+.container {
+    margin-top: 3rem;
 }

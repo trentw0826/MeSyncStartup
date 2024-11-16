@@ -11999,11 +11999,11 @@ h1, .h1 {
   font-size: clamp(3rem, 10vw, 5rem);
 }
 
-.subtitle {
+h2, .h2 {
   color: #212529;
   opacity: 0.6;
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 5vw, 2rem);
 }
 
 .bg-background {
@@ -12025,6 +12025,10 @@ h1, .h1 {
 
 .text-center {
   text-align: center;
+}
+
+.container {
+  margin-top: 3rem;
 }
 
 /*# sourceMappingURL=custom-bootstrap.css.map */
