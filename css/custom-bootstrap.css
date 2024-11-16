@@ -11963,6 +11963,9 @@ input.form-control::placeholder {
 input.form-control:focus::placeholder {
   opacity: 0;
 }
+input.form-control:hover::placeholder {
+  opacity: 0;
+}
 
 .btn-primary {
   background: transparent;
@@ -12007,7 +12010,7 @@ h2, .h2 {
 }
 
 @media (max-height: 412px) {
-  h2, .h2 {
+  h2, .h2, footer {
     display: none;
   }
 }
@@ -12023,6 +12026,7 @@ h2, .h2 {
 }
 .bg-background {
   background-color: #D0E8D0;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.05) 20%, rgba(0, 0, 0, 0.5) 100%), #D0E8D0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12052,6 +12056,23 @@ h2, .h2 {
   margin-top: 0;
   max-width: 30vw;
   max-height: 50vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: transparent;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  transition: filter 0.3s ease;
+}
+.icon:hover {
+  filter: invert(34%) sepia(100%) saturate(500%) hue-rotate(190deg) brightness(90%) contrast(90%);
 }
 
 /*# sourceMappingURL=custom-bootstrap.css.map */
