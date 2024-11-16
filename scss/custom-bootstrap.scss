@@ -1,6 +1,6 @@
 $theme-colors: (
-    "primary": #2C6E49, /* Forest Green - Used for primary buttons and links */
-    "secondary": #88D9E6, /* Seafoam - Used for secondary buttons and accents */
+    "primary": #2C6E49, /* Forest Green - Used for primary buttons */
+    "secondary": #175ddc, /* Royal Blue - Used for secondary buttons, accents, and links */
     "success": #6E8F72, /* Moss Green - Used for success messages and icons */
     "info": #4A90A4, /* Ocean Blue - Used for informational messages and icons */
     "warning": #D4A16A, /* Golden Tan - Used for warning messages and icons */
@@ -11,6 +11,10 @@ $theme-colors: (
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+html, body {
+    overscroll-behavior: none;
+}
 
 // Input styles
 input.form-control {
@@ -66,7 +70,7 @@ input.form-control {
 
 // Typography styles
 h1, h2 {
-    color: $dark;
+    color: map-get($theme-colors, "dark");
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     margin: 0;
@@ -74,7 +78,14 @@ h1, h2 {
 }
 
 h1 {
-    font-size: clamp(2rem, 8vw, 5rem);  // Font size changes between 2rem and 5rem based on the viewport width, defaulting to 8vw
+    font-size: clamp(3rem, 10vw, 5rem);  
+}
+
+.subtitle {
+    color: $dark;
+    opacity: 0.6; // Make the text muted
+    font-style: italic; // Italicize the text
+    font-size: 1.25rem; // Adjust the font size as needed
 }
 
 // Background styles
