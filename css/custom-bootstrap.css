@@ -12006,6 +12006,21 @@ h2, .h2 {
   font-size: clamp(1rem, 5vw, 2rem);
 }
 
+@media (max-height: 412px) {
+  h2, .h2 {
+    display: none;
+  }
+}
+@media (max-height: 300px) {
+  h1, .h1 {
+    display: none;
+  }
+}
+@media (max-height: 200px) {
+  .btn {
+    display: none;
+  }
+}
 .bg-background {
   background-color: #D0E8D0;
   min-height: 100vh;
@@ -12021,6 +12036,8 @@ h2, .h2 {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100%;
+  align-items: center;
 }
 
 .text-center {
@@ -12028,7 +12045,13 @@ h2, .h2 {
 }
 
 .container {
-  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 0;
+  max-width: 30vw;
+  max-height: 50vh;
 }
 
 /*# sourceMappingURL=custom-bootstrap.css.map */
