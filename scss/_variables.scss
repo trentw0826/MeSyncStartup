@@ -1,0 +1,17 @@
+
+// Color palette variables
+$primary: #2C6E49;          // Forest Green
+$secondary: #175ddc;        // Royal Blue
+$success: #6E8F72;          // Moss Green
+$info: #4A90A4;             // Ocean Blue
+$warning: #D4A16A;          // Golden Tan
+$danger: #A44D4D;           // Brick Red
+$light: #F0ECE3;            // Soft Off-White
+$dark: #2E3830;             // Dark Green-Gray
+$background-light: #D0E8D0; // Light Green (custom)
+
+
+// Custom Bootstrap theme override
+$theme-colors: (
+  "background-light": $background-light
+);
