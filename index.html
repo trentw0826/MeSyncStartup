@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="header">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#">Login</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Dashboard</a>
@@ -40,6 +40,28 @@
       <i class="bi bi-journal-check text-light" style="font-size: 30px;"></i>
     </div>
   </nav>
+
+  <div class="container d-flex flex-md-row flex-column justify-content-center align-items-center flex-grow-1">
+    <!-- Title box -->
+    <div class="container d-flex flex-column border-end m-1">
+      <h1 class="display-1 text-left">MeSync</h1>
+      <h2 class="display-5 text-left text-muted">The gentle art of self-reflection</h2>
+    </div>
+    <!-- Login box -->
+    <div class="container d-flex flex-column m-1">
+      <form>
+        <div class="mb-3">
+          <label for="username" class="form-label d-none d-md-block">Username</label>
+          <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label d-none d-md-block">Password</label>
+          <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>  
+  </div>
 
   <!-- Footer -->
   <div class="container mt-auto">
