@@ -1,29 +1,29 @@
 
-input.form-control {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid $dark;
-    border-radius: 0;
-    box-shadow: none;
-    color: $dark;
-    max-width: 400px;
+// input.form-control {
+//     background-color: transparent;
+//     border: none;
+//     border-bottom: 1px solid $dark;
+//     border-radius: 0;
+//     box-shadow: none;
+//     color: $dark;
+//     max-width: 400px;
 
-    &:focus {
-        background-color: transparent;
-        border-bottom: 1px solid $primary;
-        box-shadow: none;
-        color: $secondary;
-    }
+//     &:focus {
+//         background-color: transparent;
+//         border-bottom: 1px solid $primary;
+//         box-shadow: none;
+//         color: $secondary;
+//     }
 
-    &::placeholder {
-        transition: opacity 0.3s ease;
-    }
+//     &::placeholder {
+//         transition: opacity 0.3s ease;
+//     }
 
-    &:focus::placeholder {
-        opacity: 0;
-    }
+//     &:focus::placeholder {
+//         opacity: 0;
+//     }
 
-    &:hover::placeholder {
-        opacity: 0;
-    }
-}
+//     &:hover::placeholder {
+//         opacity: 0;
+//     }
+// }

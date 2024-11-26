@@ -3,11 +3,7 @@
 @import "variables";
 @import "input-styles";
 @import "button-styles";
-@import "typography-styles";
-@import "background-styles";
-@import "layout-styles";
-@import "footer-styles";
-@import "shared-styles"; // New shared styles file
+@import "shared-styles"; 
 
 html, body {
     overscroll-behavior: none;
