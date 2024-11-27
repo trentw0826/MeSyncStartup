@@ -1,17 +1,24 @@
+// Color palette variables
+$primary: #2C6E49;          // Forest Green
+$secondary: #002a78;        // Royal Blue
+$success: #6E8F72;          // Moss Green
+$info: #4A90A4;             // Ocean Blue
+$warning: #D4A16A;          // Golden Tan
+$danger: #A44D4D;           // Brick Red
+$light: #F0ECE3;            // Soft Off-White
+$dark: #2E3830;             // Dark Green-Gray
 
-// // Color palette variables
-// $primary: #2C6E49;          // Forest Green
-// $secondary: #175ddc;        // Royal Blue
-// $success: #6E8F72;          // Moss Green
-// $info: #4A90A4;             // Ocean Blue
-// $warning: #D4A16A;          // Golden Tan
-// $danger: #A44D4D;           // Brick Red
-// $light: #F0ECE3;            // Soft Off-White
-// $dark: #2E3830;             // Dark Green-Gray
-// $background-light: #D0E8D0; // Light Green (custom)
+$primary-muted: lighten($primary, 20%);
+$dark-muted: lighten($dark, 20%);
 
+// Font variables
+$font-family-sans-serif: 'Arsenal SC', sans-serif;
 
-// // Custom Bootstrap theme override
-// $theme-colors: (
-//   "background-light": $background-light
-// );
+$display-font-sizes: (
+  1: 7rem,
+//   2: 4.5rem,
+//   3: 4rem,
+//   4: 3.5rem,
+//   5: 3rem,
+//   6: 2.5rem
+);

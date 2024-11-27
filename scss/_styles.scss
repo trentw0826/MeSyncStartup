@@ -1,0 +1,35 @@
+html, body {
+    overscroll-behavior: none;
+}
+
+body {
+    background-color: $light;
+}
+
+.navbar {
+    &.navbar-dark {
+        background-color: $primary;
+    }
+}
+
+.btn {
+    background: transparent;
+}
+
+.btn-primary {
+    border: 1px solid $primary;
+    color: $primary;
+
+    &:hover {
+        background: $primary-muted;
+    }
+}
+
+.btn-secondary {
+    border: 1px solid $dark;
+    color: $dark;
+
+    &:hover {
+        background: $dark-muted;
+    }
+}
