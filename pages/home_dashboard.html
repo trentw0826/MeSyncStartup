@@ -31,7 +31,7 @@
             <a class="nav-link active" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">My Entries</a>
+            <a class="nav-link" href="#">Past Entries</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Account</a>
@@ -59,21 +59,34 @@
     <div class="container d-flex flex-md-row flex-column m-1 flex-grow-1">
       <!-- Journal box -->
       <section class="mb-4 flex-fill me-2 border border-dark rounded p-3 d-flex flex-column">
-        <h2 class="display-6 text-body-secondary">Just Start Writing</h2>
+        <h2 class="display-6 text-body-secondary">Today's Entry</h2>
         <textarea rows="10" class="form-control mb-2 flex-grow-1" placeholder="How was your day?"></textarea>
         <div>
             <button type="button" class="btn btn-secondary m-1">
             <i class="bi bi-mic"></i>
             </button>
-            <button type="button" class="btn btn-primary m-1">Save Journal Entry</button>
+            <button type="button" class="btn btn-primary m-1">Update Today's Entry</button>
         </div>
       </section>
       <!-- Daily Impressions box -->
-      <section class="mb-4 flex-fill ms-2 border border-dark rounded p-3 d-flex flex-column">
-        <h2 class="display-6 text-body-secondary">Daily Impressions</h2>
-        <textarea rows="5" class="form-control mb-2 flex-grow-1" placeholder="What impressions are you having today?"></textarea>
-        <div>
-            <button type="button" class="btn btn-primary m-1">Save Daily Impression</button>
+      <section class="mb-4 d-flex flex-column daily-impressions-box">
+        <div class="border border-dark rounded p-3 mb-3">
+            <h2 class="display-6 text-body-secondary">New Impression</h2>
+            <textarea rows="5" class="form-control mb-2 flex-grow-1" placeholder="What impressions are you having today?"></textarea>
+            <div>
+                <button type="button" class="btn btn-primary m-1">Add to Today's Impressions</button>
+            </div>
+        </div>
+        <div class="border border-dark rounded p-3">
+            <!-- shows today's existing impressions -->
+            <h3 class="display-6 text-body-secondary">Today's Impressions</h3>
+            <div class="overflow-auto impressions-list">
+                <div class="list-group">
+                    <div class="list-group-item bg-transparent border-dark">11:05 am: Here is some default placeholder impression text. This text is longer as it represents a longer impression entry and therefore should take up more space on the screen</div>
+                    <div class="list-group-item bg-transparent border-dark">2:04 pm: Here is a shorter impression placeholder</div>
+                    <div class="list-group-item bg-transparent border-dark"> 9:30 pm: Here is some default placeholder impression text. This text is longer as it represents a longer impression entry and therefore should take up more space on the screen</div>                
+                </div>
+            </div>
         </div>
       </section>
     </div>
