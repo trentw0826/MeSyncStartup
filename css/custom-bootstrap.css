@@ -11806,7 +11806,6 @@ body {
 }
 
 .btn-primary {
-  border: 1px solid #2C6E49;
   color: #2C6E49;
 }
 .btn-primary:hover {
@@ -11818,7 +11817,30 @@ body {
   color: #2E3830;
 }
 .btn-secondary:hover {
-  background: #5c7060;
+  background: rgba(46, 56, 48, 0.4);
+}
+
+.form-control {
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid #2E3830;
+  border-radius: 0px;
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.form-control::placeholder {
+  color: rgba(46, 56, 48, 0.4);
+}
+
+.form-control:focus::placeholder {
+  color: transparent;
+}
+
+.icon-large {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=custom-bootstrap.css.map */

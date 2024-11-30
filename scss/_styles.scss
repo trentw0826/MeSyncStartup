@@ -17,7 +17,6 @@ body {
 }
 
 .btn-primary {
-    border: 1px solid $primary;
     color: $primary;
 
     &:hover {
@@ -32,4 +31,28 @@ body {
     &:hover {
         background: $dark-muted;
     }
+}
+
+.form-control {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid $dark;
+    border-radius: 0px;
+
+    &:focus {
+        box-shadow: none;
+        background-color: transparent;
+    }
+}
+
+.form-control::placeholder {
+    color: $dark-muted;
+}
+
+.form-control:focus::placeholder {
+    color: transparent;
+}
+
+.icon-large {
+    font-size: 2rem;
 }

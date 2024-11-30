@@ -39,53 +39,53 @@
           </li>
         </ul>
       </div>
-      <!-- Icon on the right side of the navbar -->
-      <i class="bi bi-journal-check text-light position-absolute end-0 me-3" style="font-size: 30px;"></i>
+      <!-- Journal icon -->
+      <i class="bi bi-journal-check text-light position-absolute end-0 me-3 icon-large"></i>
     </div>
   </nav>
 
   <!-- Body -->
-  <div class="container d-flex flex-md-row flex-column justify-content-center align-items-center flex-grow-1">
+  <main class="container d-flex flex-md-row flex-column justify-content-center align-items-center flex-grow-1">
     <!-- Title/subtitle box -->
-    <div class="container d-flex flex-column m-1 p-3 text-md-start text-center">
+    <div class="container d-flex flex-column m-1 me-4 p-3 text-md-start text-center">
       <h1 class="display-1 text-primary">MeSync</h1>
-      <h2 class="display-6 text-body-secondary d-none d-sm-block">The gentle art of self-reflection</h2>
+      <h2 class="display-6 text-body-secondary d-none d-sm-block subtitle">The gentle art of self-reflection</h2>
     </div>
     <!-- Login box -->
     <div class="container d-flex flex-column m-1">
       <form>
         <!-- Username input -->
         <div class="mb-3">
-          <label for="username" class="form-label d-none d-md-block">Username</label>
-          <input type="text" class="form-control" id="username" name="username" required>
+          <!-- <label for="username" class="form-label d-none d-md-block">Username</label> -->
+          <input type="text" placeholder="username" class="form-control" id="username" name="username" required>
         </div>
         <!-- Password input -->
         <div class="mb-3">
-          <label for="password" class="form-label d-none d-md-block">Password</label>
-          <input type="password" class="form-control" id="password" name="password" required>
+          <!-- <label for="password" class="form-label d-none d-md-block">Password</label> -->
+          <input type="password" placeholder="password" class="form-control" id="password" name="password" required>
         </div>
         <!-- Login container -->
         <div class="d-flex flex-md-row flex-column justify-content-between align-items-center">
           <button type="submit" class="btn btn-primary my-2">Login</button>
           <div class="d-flex flex-column flex-md-row align-items-center">
-            <a href="#" class="btn btn-secondary my-2 ms-2">Create Account</a>
-            <a href="#" class="btn btn-secondary my-2 ms-2">Forgot Password</a>
+            <button href="#" class="btn btn-secondary my-2 ms-2">Create Account</button>
+            <button href="#" class="btn btn-secondary my-2 ms-2">Forgot Password</button>
           </div>
         </div>
       </form>
     </div>  
-  </div>
+  </main>
 
   <!-- Footer -->
   <div class="container mt-auto">
-    <footer class="d-flex flex-column flex-sm-row justify-content-between align-items-center py-2 border-top">
+    <footer class="d-flex flex-column flex-sm-row justify-content-between align-items-center py-2 border-top border-dark footer">
       <div class="d-flex align-items-center">
         <span class="text-body-secondary">© 2024 MeSync</span>
       </div>
 
       <!-- Footer links -->
       <ul class="nav justify-content-end list-unstyled align-items-center d-none d-sm-flex">
-        <li class="ms-3"><a href="https://github.com/trentw0826/MeSyncStartup" target="_blank"><i class="bi bi-github" style="font-size: 22px;"></i></a></li>
+        <li class="ms-3"><a href="https://github.com/trentw0826/MeSyncStartup" target="_blank"><i class="bi bi-github icon icon-large"></i></a></li>
       </ul>
     </footer>
   </div>
