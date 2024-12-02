@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
   <!-- Page title + icon -->
-  <title>Prompt Board</title>
+  <title>Past Entries</title>
   <link rel="icon" href="../assets/favicon.ico" type="image/ico">
   
   <!-- Custom Bootstrap CSS and Bootstrap Icons -->
@@ -31,13 +32,13 @@
             <a class="nav-link" href="home_dashboard.html">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="past_entries.html">Past Entries</a>
+            <a class="nav-link active" href="past_entries.html">Past Entries</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Account</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="prompt_board.html">Prompt Board</a>
+            <a class="nav-link" href="prompt_board.html">Prompt Board</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../index.html">Logout</a>
@@ -53,30 +54,18 @@
   <main class="container d-flex flex-column justify-content-center align-items-center flex-grow-1">
     <!-- Title/subtitle box -->
     <div class="container d-flex flex-column m-1 me-4 p-3 text-center">
-      <h1 class="display-4 text-primary">Prompt Board</h1>
+      <h1 class="display-4 text-primary">Past Entries</h1>
     </div>
-    <!-- Prompt input and display -->
-    <div class="container d-flex flex-md-row flex-column m-1 flex-grow-1">
-      <!-- Prompt input box -->
-      <section class="mb-4 flex-fill me-2 border border-dark rounded p-3 d-flex flex-column">
-        <h2 class="display-6 text-body-secondary">Share a Prompt</h2>
-        <textarea rows="5" class="form-control mb-2 flex-grow-1" placeholder="Type your prompt here..."></textarea>
-        <div>
-            <button type="button" class="btn btn-primary m-1">Upload Prompt</button>
-        </div>
-      </section>
-      <!-- Shared prompts display -->
-      <section class="mb-4 d-flex flex-column daily-impressions-box">
-        <div class="border border-dark rounded p-3">
-            <h2 class="display-6 text-body-secondary">Shared Prompts</h2>
-            <div class="overflow-auto impressions-list">
-                <div class="list-group">
-                    <div class="list-group-item bg-transparent border-dark">What was the highlight of your day?</div>
-                    <div class="list-group-item bg-transparent border-dark">Describe a moment when you felt truly at peace.</div>
-                    <div class="list-group-item bg-transparent border-dark">What are you grateful for today?</div>
-                    <!-- More prompts can be dynamically added here -->
-                </div>
-            </div>
+    <!-- Past entries list -->
+    <div class="container d-flex flex-column m-1 flex-grow-1">
+      <section class="mb-4 flex-fill border border-dark rounded p-3 d-flex flex-column">
+        <h2 class="display-6 text-body-secondary">Your Past Entries</h2>
+        <div class="overflow-auto impressions-list">
+          <div class="list-group">
+            <div class="list-group-item bg-transparent border-dark">January 1, 2024: Here is a past entry example. This text is longer as it represents a longer journal entry and therefore should take up more space on the screen.</div>
+            <div class="list-group-item bg-transparent border-dark">December 31, 2023: Here is another past entry example.</div>
+            <!-- More past entries can be dynamically added here -->
+          </div>
         </div>
       </section>
     </div>
