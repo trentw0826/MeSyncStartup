@@ -44,3 +44,5 @@ Authenticates users via JSON Web Tokens (JWT), ensuring that only authenticated 
 ## Deliverables
 # HTML
 The main HTML commit includes the foundational structure for the MeSync web application. It encompasses the layout for the login and registration pages, as well as the main journal dashboard. Semantic HTML elements are used to ensure accessibility and clear navigation, providing a solid base for the app's user interface. Additionally, this commit added placeholders for all main service functionality, including but not limited to backend database calls, calls to a couple 3rd-party APIS, a live websocket prompt feed, and other backend services.
+# CSS
+This CSS-based commit added bootstrap-based styling to all HTML pages. It defines common styles for the entire project, adds various HTML pages to help fulfill the function of the MeSync project (about page, past entries, account settings), and adds various placeholders for future functionality.
